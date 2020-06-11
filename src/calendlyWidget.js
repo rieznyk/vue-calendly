@@ -121,6 +121,7 @@ class Calendly {
 
 export default {
   widget(el, options = {}) {
+    console.log(options);
     const calendly = new Calendly(el, options);
 
     calendly.build();
